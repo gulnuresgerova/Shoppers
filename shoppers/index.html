@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.5/axios.min.js" integrity="sha512-TjBzDQIDnc6pWyeM1bhMnDxtWH0QpOXMcVooglXrali/Tj7W569/wd4E8EDjk1CwOAOPSJon1VfcEt1BI4xIrA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.5/axios.min.js"
+      integrity="sha512-TjBzDQIDnc6pWyeM1bhMnDxtWH0QpOXMcVooglXrali/Tj7W569/wd4E8EDjk1CwOAOPSJon1VfcEt1BI4xIrA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script defer src="./assets/js/main.js"></script>
+    <title>Sohoppers</title>
+  </head>
+  <body>
+    <!-- header section -->
+
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search" />
+          </div>
+          <p class="logo">SHOPPER</p>
+          <div class="icons">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-cart-shopping fav">
+              <sup >3</sup>
+            </i>
+          </div>
+
+          <i id="menu" class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <!-- section nav -->
+    <section id="nav">
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./index.html">ABOUT</a></li>
+            <li><a href="./index.html">SHOP</a></li>
+            <li><a href="./index.html">CATOLOGUYE</a></li>
+            <li><a href="./form.html">FORM</a></li>
+            <li>
+              <a href="./favs.html">FAVORITE</a> <sup class="favcount">0</sup>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <!-- 
+    section shoes -->
+
+    <section id="shoes">
+      <div class="container">
+        <div class="shoes">
+          <div class="shoes-text">
+            <h1>
+              Finding Your <br />
+              Perfect Shoes
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing <br />
+              elit. Phasellus at iaculis quam. Integer accumsan <br />
+              tincidunt fringilla.
+            </p>
+            <button class="shop">SHOP NOW</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sort section -->
+    <section id="sort">
+      <div class="container">
+        <div class="sort">
+          <div class="card">
+            <div class="icon"><i class="fa-solid fa-car"></i></div>
+            <div class="info">
+              <p>FREE SHIPPING</p>
+              <em
+                >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus at iaculis quam. Integer accumsan tincidunt
+                fringilla.</em
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon"><i class="fa-solid fa-rotate-right"></i></div>
+            <div class="info">
+              <p>FREE SHIPPING</p>
+              <em
+                >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus at iaculis quam. Integer accumsan tincidunt
+                fringilla.</em
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon"><i class="fa-solid fa-question"></i></div>
+            <div class="info">
+              <p>FREE SHIPPING</p>
+              <em
+                >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus at iaculis quam. Integer accumsan tincidunt
+                fringilla.</em
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- childer section -->
+    <section id="childer">
+        <div class="container">
+            <div class="childer">
+                <div class="child one">
+                    <b>COLLECTIONS</b>
+                    <p>WOMAN</p>
+                </div>
+                <div class="child twoo">
+                    <b>COLLECTIONS</b>
+                    <p>CHILDREN</p>
+                </div>
+                <div class="child three">
+                    <b>COLLECTIONS</b>
+                    <p>MEN</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- dinamic section -->
+    <section id="dinamic">
+      <div class="container">
+        <div class="section-head">
+          <div class="line"></div>
+          <p>Featured Products</p>
+          
+                <div class="serach">
+                    <input type="text" class="search">
+                    <button class="sorts"> sort</button>
+                </div>
+        </div>
+        <div class="dinamic">
+          <div class="box">
+            <!-- <div class="image">
+                <img src="https://preview.colorlib.com/theme/shoppers/images/cloth_1.jpg" alt="" />
+            </div>
+           <div class="import">
+            <p>TAnk top</p>
+            <i class="fa-regular fa-heart"></i>
+           </div>
+            <em>set nwe</em>
+            <p>4545</p>
+          </div>
+         -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- sale section -->
+
+    <section id="sale">
+        <div class="container">
+          <div class="section-head">
+            <div class="line"></div>
+            <p>BIG SALE</p>
+          </div>
+      <div class="sale">
+        <div class="sale-right">
+            <img src="./assets/img/blog_1.jpg" alt="">
+        </div>
+        <div class="sale-left">
+           <div class="sale-text">
+             <h1>50% less in all items</h1>
+            <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Quisquam iste dolor accusantium facere corporis ipsum animi <br> deleniti fugiat. Ex, veniam?</em>
+            <button class="shop">SHOP NOW</button>
+           </div>
+        </div>
+      </div>
+      </section>
+
+      <footer>
+        <div class="container">
+            <div class="footer">
+                <nav>
+                    <ul>
+                        <li>
+                            <h1>Navigations</h1>
+                        </li>
+                        <li>Sell online</li>
+                        <li>Featurese</li>
+                        <li>Sell online</li>
+                        <li>Shopping cart</li>
+                        <li>Store buildere</li>
+                        <li>Sell online</li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li>
+                            <h1>.</h1>
+                        </li>
+                     
+                        <li>Shopping cart</li>
+                        <li>Store buildere</li>
+                        <li>Sell online</li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li>
+                            <h1>.</h1>
+                        </li>
+                        <li>Point of sale</li>
+                        <li>Hardware</li>
+                        <li>Software</li>
+                      
+                    </ul>
+                </nav>
+<div class="promo">
+    <h1>Promo</h1>
+ <div class="prom-img">
+    <img src="./assets/img/hero_1 (1).jpg" alt="">
+ </div>
+ <p>Store buildereStore </p>
+<em>Store buildereStore</em>
+</div>
+<div class="contact">
+    <h1>Contact inf0</h1>
+    <div class="info">
+        <i class="fa-solid fa-location-dot"></i>
+        <p>203 Fake St. Mountain View, San <br> Francisco, California, USA</p>
+    </div>
+    <div class="info">
+        <i class="fa-solid fa-phone"></i>
+        <p>+2 392 3929 210</p>
+    </div>
+    <div class="info">
+        <i class="fa-solid fa-envelope"></i>
+        <p>emailaddress@domain.com</p>
+    </div>
+
+    <div class="subs">
+        <h1>Subscribe</h1>
+        <div class="input">
+            <input type="text" placeholder="Email" >
+            <button class="shop">send</button>
+        </div>
+    </div>
+            </div>
+        </div>
+      </footer>
+      <section id="final">
+      <div class="container">
+        <div class="final">
+            Copyright ©2024 All rights reserved | This template is made with  by Colorlib
+        </div>
+      </div>
+
+      </section>
+  </body>
+</html>
